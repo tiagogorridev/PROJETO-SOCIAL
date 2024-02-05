@@ -15,7 +15,11 @@ html, body {
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
+}
+
+body {
+    background: url(../projetosocialdados/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top;
+    background-attachment: fixed;
 }
 
 section#telefone {
@@ -24,7 +28,35 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 300px;
-    width: 1200px;
-    background: blue url('../projetosocialdados/pacote-d013/imagens/frame-iphone.png')no-repeat center;
+    height: 627px;
+    width: 311px;
+    background: url('../projetosocialdados/pacote-d013/imagens/frame-iphone.png')no-repeat center;
 }
+
+iframe#tela {
+    position: relative;
+    top: 79px;
+    left: 21px;
+    width: 269px;
+    height: 473px;
+}
+
+section#redes-sociais img {
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box; /*para a borda dos outros itens nao se mexerem (ou seja,a borda faz parte da caixa*/
+} 
+
+section#redes-sociais {
+    text-align: right ;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(119, 136, 153, 0.658);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    transition: transform 0.3s; /* velocidade da movimentação */
+}
+
