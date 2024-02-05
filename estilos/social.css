@@ -19,7 +19,7 @@ img {
 
 a {
     display: block;
-    background-color: lightblue;
+    background-color: darkblue;
     color: white;
     padding: 20px;
     text-align: center;
@@ -27,5 +27,5 @@ a {
 }
 
 a:hover {
-    background-color: lightcoral;
+    background-color: darkblue;
 }
